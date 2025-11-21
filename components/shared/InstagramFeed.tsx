@@ -31,13 +31,13 @@ export default function InstagramFeed() {
             Join our community and get inspired by the latest trends
           </p>
           <a 
-            href="https://instagram.com/tinacollections" 
+            href="https://instagram.com/tisacollections" 
             target="_blank" 
             rel="noopener noreferrer"
           >
             <CustomButton variant="outline" size="lg">
               <Instagram size={20} className="mr-2" />
-              @tinacollections
+              @tisacollections
             </CustomButton>
           </a>
         </motion.div>

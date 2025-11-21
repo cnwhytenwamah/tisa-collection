@@ -18,11 +18,11 @@ const montserrat = Montserrat({
 })
 
 export const metadata = {
-  title: 'Tina Collections - Stylish Bags, Footwear & Fashion Accessories',
+  title: 'Tisa Collections - Stylish Bags, Footwear & Fashion Accessories',
   description: 'Discover elegant and affordable fashion accessories. Shop our collection of bags, footwear, and accessories that make you feel confident.',
   keywords: 'fashion bags, footwear, accessories, women fashion, affordable style',
   openGraph: {
-    title: 'Tina Collections - Stylish Fashion Accessories',
+    title: 'Tisa Collections - Stylish Fashion Accessories',
     description: 'Shop elegant bags, footwear, and fashion accessories',
     type: 'website',
     url: '',
@@ -31,7 +31,7 @@ export const metadata = {
         url: '/og-image.jpg',
         width: 1200,
         height: 630,
-        alt: 'Tina Collections',
+        alt: 'Tisa Collections',
       },
     ],
   },

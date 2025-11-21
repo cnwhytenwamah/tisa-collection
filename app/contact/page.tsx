@@ -123,8 +123,8 @@ export default function ContactPage() {
                     </div>
                     <div>
                       <h3 className="font-semibold text-lg mb-1">Email</h3>
-                      <a href="mailto:info@tinacollections.com" className="text-gray-600 hover:text-[#a18072]">
-                        info@tinacollections.com
+                      <a href="mailto:info@tisacollections.com" className="text-gray-600 hover:text-[#a18072]">
+                        info@tisacollections.com
                       </a>
                     </div>
                   </div>
@@ -144,7 +144,7 @@ export default function ContactPage() {
                   <h3 className="text-xl font-semibold mb-4">Follow Us</h3>
                   <div className="flex space-x-4">
                     <a 
-                      href="https://instagram.com/tinacollections" 
+                      href="https://instagram.com/tisacollections" 
                       target="_blank" 
                       rel="noopener noreferrer"
                       className="w-12 h-12 bg-gradient-to-br from-purple-600 to-pink-600 rounded-full flex items-center justify-center hover:scale-110 transition-transform"
@@ -152,7 +152,7 @@ export default function ContactPage() {
                       <Instagram size={24} className="text-white" />
                     </a>
                     <a 
-                      href="https://facebook.com/tinacollections" 
+                      href="https://facebook.com/tisacollections" 
                       target="_blank" 
                       rel="noopener noreferrer"
                       className="w-12 h-12 bg-blue-600 rounded-full flex items-center justify-center hover:scale-110 transition-transform"
