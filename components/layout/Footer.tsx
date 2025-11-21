@@ -45,7 +45,7 @@ export default function Footer() {
             <ul className="space-y-3">
               <li className="flex items-center space-x-2">
                 <Phone size={18} />
-                <a href="tel:+234" className="text-gray-300 hover:text-[#a18072]">+234 XXX XXX XXXX</a>
+                <a href="tel:+234" className="text-gray-300 hover:text-[#a18072]">+234 815 616 6597</a>
               </li>
               <li className="flex items-center space-x-2">
                 <Mail size={18} />
@@ -55,7 +55,7 @@ export default function Footer() {
               </li>
               <li className="flex items-center space-x-2">
                 <MapPin size={18} />
-                <span className="text-gray-300">Lagos, Nigeria</span>
+                <span className="text-gray-300">Port Harcourt, Nigeria</span>
               </li>
             </ul>
           </div>

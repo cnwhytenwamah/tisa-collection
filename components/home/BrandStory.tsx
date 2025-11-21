@@ -21,7 +21,7 @@ export default function BrandStory() {
               alt="Tisa Collections Story"
               width={400}
               height={400}
-              className="object-cover w-full h-full"
+              className="object-cover w-full h-full md:w-full md:h-full"
             />
           </motion.div>
 
