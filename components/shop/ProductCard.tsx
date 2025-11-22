@@ -36,7 +36,7 @@ export default function ProductCard({ product, priority = false }: ProductCardPr
           <ImageComponent
             src={product.images[0].url}
             alt={product.images[0].alt}
-            className="object-cover group-hover:scale-110 transition-transform duration-500 md:w-full md:h-full" 
+            className="object-cover group-hover:scale-110 transition-transform duration-500 w-full h-full md:w-full md:h-full" 
             width={320} 
             height={150}          
           />

@@ -100,7 +100,7 @@ export default function ContactPage() {
                     </div>
                     <div>
                       <h3 className="font-semibold text-lg mb-1">WhatsApp</h3>
-                      <p className="text-gray-600">+234 XXX XXX XXXX</p>
+                      <p className="text-gray-600">+234 815 616 6597</p>
                       <p className="text-sm text-[#a18072] mt-1">Click to chat with us</p>
                     </div>
                   </a>
@@ -112,7 +112,7 @@ export default function ContactPage() {
                     <div>
                       <h3 className="font-semibold text-lg mb-1">Phone</h3>
                       <a href="tel:+234" className="text-gray-600 hover:text-[#a18072]">
-                        +234 XXX XXX XXXX
+                        +234 815 616 6597
                       </a>
                     </div>
                   </div>
@@ -135,7 +135,7 @@ export default function ContactPage() {
                     </div>
                     <div>
                       <h3 className="font-semibold text-lg mb-1">Location</h3>
-                      <p className="text-gray-600">Lagos, Nigeria</p>
+                      <p className="text-gray-600">Port Harcourt, Nigeria</p>
                     </div>
                   </div>
                 </div>
