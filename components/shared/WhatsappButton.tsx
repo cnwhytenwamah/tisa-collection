@@ -19,7 +19,7 @@ export default function WhatsAppButton({
   className 
 }: WhatsAppButtonProps) {
   const handleClick = () => {
-    const link = generateWhatsAppLink(product, '2348156166597')
+    const link = generateWhatsAppLink(product, '2348109272175')
     window.open(link, '_blank')
   }
 
