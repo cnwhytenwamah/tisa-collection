@@ -53,7 +53,7 @@ export default function ContactPage() {
     }
   };
 
-  const whatsappNumber = '2348156166597'
+  const whatsappNumber = '2348109272175'
   const whatsappLink = `https://wa.me/${whatsappNumber}?text=Hi! I'd like to inquire about your products.`
 
   return (
@@ -123,8 +123,8 @@ export default function ContactPage() {
                     </div>
                     <div>
                       <h3 className="font-semibold text-lg mb-1">Email</h3>
-                      <a href="mailto:info@tisacollections.com" className="text-gray-600 hover:text-[#a18072]">
-                        info@tisacollections.com
+                      <a href="mailto:sacollections1432@gmail.com" className="text-gray-600 hover:text-[#a18072]">
+                        sacollections1432@gmail.com
                       </a>
                     </div>
                   </div>

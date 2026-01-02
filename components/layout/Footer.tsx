@@ -52,12 +52,12 @@ export default function Footer() {
             <ul className="space-y-3">
               <li className="flex items-center space-x-2">
                 <Phone size={18} />
-                <a href="tel:+234" className="text-gray-300 hover:text-[#a18072]">+234 815 616 6597</a>
+                <a href="tel:+234" className="text-gray-300 hover:text-[#a18072]">+234 810 927 2175</a>
               </li>
               <li className="flex items-center space-x-2">
                 <Mail size={18} />
-                <a href="mailto:info@tisacollections.com" className="text-gray-300 hover:text-[#a18072]">
-                  info@tisacollections.com
+                <a href="mailto:sacollections1432@gmail.com" className="text-gray-300 hover:text-[#a18072]">
+                  sacollections1432@gmail.com
                 </a>
               </li>
               <li className="flex items-center space-x-2">
