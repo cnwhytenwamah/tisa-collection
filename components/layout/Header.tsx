@@ -5,6 +5,7 @@ import Link from 'next/link'
 import { usePathname } from 'next/navigation'
 import { motion, AnimatePresence } from 'framer-motion'
 import { Menu, X } from 'lucide-react'
+import ImageComponent from "@/components/ui/ImageComponent"
 
 export default function Header() {
   const [isScrolled, setIsScrolled] = useState(false)
@@ -48,16 +49,23 @@ export default function Header() {
         }`}
       >
         <div className="max-w-7xl mx-auto px-6 py-4">
-          <div className="flex items-center justify-between">
+          <div className="flex items-center justify-between h-10">
             <Link href="/">
-              <motion.span
+              <motion.div
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
-                className="text-2xl font-display font-bold text-[#846358] cursor-pointer"
+                className="cursor-pointer"
               >
-                Tisa Collections
-              </motion.span>
+                <ImageComponent
+                  src="/images/hero/logo.png"
+                  alt="Tisa Collections Logo"
+                  width={120}
+                  height={40}
+                  className="object-contain h-20 w-auto"
+                />
+              </motion.div>
             </Link>
+
 
             <div className="hidden md:flex items-center gap-8">
               {navigation.map((item) => (

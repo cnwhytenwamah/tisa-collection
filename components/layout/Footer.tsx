@@ -2,6 +2,7 @@
 
 import Link from 'next/link'
 import { Instagram, Facebook, Mail, Phone, MapPin } from 'lucide-react'
+import ImageComponent from "@/components/ui/ImageComponent"
 
 export default function Footer() {
   const currentYear = new Date().getFullYear()
@@ -10,8 +11,14 @@ export default function Footer() {
     <footer className="bg-[#3A3A3A] text-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
-          <div className="col-span-1 md:col-span-2">
-            <h3 className="text-2xl font-display font-bold mb-4">Tisa Collections</h3>
+          <div className="col-span-1 md:col-span-2 h-10">
+            <ImageComponent
+              src="/images/hero/logo.png"
+              alt="Tisa Collections Logo"
+              width={120}
+              height={60}
+              className="object-contain h-20"
+            />
             <p className="text-gray-300 mb-4">
               Your destination for stylish, affordable fashion. Discover elegant bags,
               footwear, and accessories that make you feel confident.
