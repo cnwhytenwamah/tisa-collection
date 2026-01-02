@@ -69,7 +69,12 @@ export default function Footer() {
         </div>
 
         <div className="border-t border-gray-700 mt-8 pt-8 text-center text-gray-400">
-          <p>&copy; {currentYear} Tisa Collections. All rights reserved. | Built by Clinton Nwamah </p>
+          <p>
+            &copy; {currentYear} Tisa Collections. All rights reserved. | Built by{" "}
+            <Link href="https://cnwhyte-dev.vercel.app" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">
+              Clinton Nwamah
+            </Link>
+          </p>
         </div>
       </div>
     </footer>
